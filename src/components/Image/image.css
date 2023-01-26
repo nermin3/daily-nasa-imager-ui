@@ -1,0 +1,11 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 60px auto;
+}
+.image {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    max-width: 100%;
+}
